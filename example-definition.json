@@ -1,0 +1,22 @@
+[{
+    "url": "http://google.com",
+    "browser": "Mobile Safari",
+    "browser_version": null,
+    "os_version": "7.0",
+    "os": "ios",
+    "device": "iPad mini Retina"
+},{
+  "url": "http://facebook.com",
+  "browser": "Opera Browser",
+  "browser_version": null,
+  "os_version": "1280x800",
+  "os": "opera",
+  "device": "Samsung Galaxy Tab 10.1"
+},{
+  "url": "http://reddit.com",
+  "browser": "IE Mobile",
+  "browser_version": null,
+  "os_version": "8.1",
+  "os": "winphone",
+  "device": "Nokia Lumia 520"
+}]

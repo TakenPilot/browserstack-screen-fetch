@@ -1,0 +1,19 @@
+{
+  "name": "browerstack-screen-fetch",
+  "version": "0.1.0",
+  "description": "Fetch screenshots of urls from a list of browsers and devices",
+  "main": "lib/index.js",
+  "bin": "bin/cli",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dane Stuckel",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.6.4",
+    "browserstack": "^1.1.0",
+    "handlebars": "^2.0.0",
+    "minimist": "^1.1.0"
+  }
+}
