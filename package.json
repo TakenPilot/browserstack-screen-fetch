@@ -1,12 +1,16 @@
 {
   "name": "browserstack-screen-fetch",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Fetch screenshots of urls from a list of browsers and devices",
   "main": "lib/index.js",
   "bin": "bin/cli",
   "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TakenPilot/browserstack-screen-fetch.git"
   },
   "author": "Dane Stuckel",
   "license": "ISC",
