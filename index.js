@@ -34,16 +34,10 @@ function output(name, data) {
 var bs = new BrowserStackScreenFetch({
   user: argv.user || process.env.BROWSERSTACK_USERNAME,
   password: argv.password || process.env.BROWSERSTACK_PASSWORD,
-  kill: argv.kill
+  kill: argv.kill,
+  waitInterval: argv['wait-interval'] && parseInt(argv['wait-interval'], 10),
+  waitToLoad: argv['wait-to-load'] && parseInt(argv['wait-to-load'], 10)
 })
-
-if (argv['wait-interval']) {
-  waitInterval = parseInt(argv['wait-interval'], 10);
-}
-
-if (argv['wait-to-load']) {
-  waitToLoad = parseInt(argv['wait-to-load'], 10);
-}
 
 if (argv.filename) {
   bs.loadUseCasesFromFile(argv.filename).map(bs.getUrl.bind(bs)).then(function (result) {

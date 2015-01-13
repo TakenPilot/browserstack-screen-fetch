@@ -1,6 +1,6 @@
 {
-  "name": "browerstack-screen-fetch",
-  "version": "0.1.0",
+  "name": "browserstack-screen-fetch",
+  "version": "0.2.0",
   "description": "Fetch screenshots of urls from a list of browsers and devices",
   "main": "lib/index.js",
   "bin": "bin/cli",
